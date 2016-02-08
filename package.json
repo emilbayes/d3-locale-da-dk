@@ -1,5 +1,5 @@
 {
-  "name": "d3-locale-danish",
+  "name": "d3-locale-da-dk",
   "version": "1.0.0",
   "description": "Danish locale for D3.js, modelled after da_DK glibc locale",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/emilbayes/d3-locale-danish.git"
+    "url": "git+ssh://git@github.com/emilbayes/d3-locale-da-dk.git"
   },
   "keywords": [
     "d3",
@@ -23,9 +23,9 @@
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emilbayes/d3-locale-danish/issues"
+    "url": "https://github.com/emilbayes/d3-locale-da-dk/issues"
   },
-  "homepage": "https://github.com/emilbayes/d3-locale-danish#readme",
+  "homepage": "https://github.com/emilbayes/d3-locale-da-dk#readme",
   "devDependencies": {
     "tape": "^4.4.0",
     "d3": "^3"
