@@ -1,5 +1,5 @@
 // Source: http://lh.2xlibre.net/locale/da_DK/
-module.exports = require('d3').locale({
+module.exports = {
   'decimal': ',',
   'thousands': '.',
   'grouping': [3],
@@ -12,4 +12,4 @@ module.exports = require('d3').locale({
   'shortDays': ['søn', 'man', 'tir', 'ons', 'tor', 'fre', 'lør'],
   'months': ['januar', 'februar', 'marts', 'april', 'maj', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'december'],
   'shortMonths': ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec']
-})
+}

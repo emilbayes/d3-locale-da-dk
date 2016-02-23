@@ -13,11 +13,11 @@ npm install d3-locale-da-dk
 Usage
 -----
 
-You need `d3` installed as a `peerDependency`. I chose to have it as a peer
-dependency, since D3.js is a large, with singletons such as `d3.event`.
+You need `d3` installed and pass this module to `d3.locale`:
 
 ```js
-var da_DK = require('d3-locale-da-dk')
+var d3 = require('d3')
+var da_DK = d3.locale(require('d3-locale-da-dk'))
 
 da_DK.formatNumber('$,.2f')(12345.678) // => '12.345,67 kr'
 ```

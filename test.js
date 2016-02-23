@@ -2,7 +2,8 @@
 // with minor modifications where ambiguity was present (ie. numeric months/date, hour/min/sec)
 
 var test = require('tape')
-var da_dk = require('.')
+var d3 = require('d3')
+var da_dk = d3.locale(require('.'))
 
 var l = function () {
   return new Date(...Array.from(arguments))

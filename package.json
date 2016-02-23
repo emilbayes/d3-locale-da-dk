@@ -29,8 +29,5 @@
   "devDependencies": {
     "tape": "^4.4.0",
     "d3": "^3"
-  },
-  "peerDependency": {
-    "d3": "^3"
   }
 }
