@@ -1,6 +1,6 @@
 {
   "name": "d3-locale-da-dk",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Danish locale for D3.js, modelled after da_DK glibc locale",
   "main": "index.js",
   "scripts": {
